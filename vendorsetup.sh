@@ -1,1 +1,1 @@
-add_lunch_combo lineage_nobleltetmo-userdebug
+add_lunch_combo havoc_nobleltetmo-userdebug
