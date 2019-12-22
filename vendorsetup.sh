@@ -1,1 +1,1 @@
-add_lunch_combo rr_nobleltetmo-userdebug
+add_lunch_combo renouveau_nobleltetmo-userdebug

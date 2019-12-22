@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_nobleltetmo.mk
+    $(LOCAL_DIR)/renouveau_nobleltetmo.mk
