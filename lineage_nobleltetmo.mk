@@ -40,8 +40,8 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SM-N920W8
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=nobleltebmc \
+    PRODUCT_NAME=nobleltetmo \
     TARGET_DEVICE=nobleltebmc \
-    PRIVATE_BUILD_DESC="nobleltebmc-user 7.0 NRD90M N920TUVS5ERE1 release-keys"
+    PRIVATE_BUILD_DESC="nobleltetmo-user 7.0 NRD90M N920TUVS5ERE1 release-keys"
 
-BUILD_FINGERPRINT := "samsung/nobleltebmc/nobleltebmc:7.0/NRD90M/N920TUVS5ERE1:user/release-keys"
+BUILD_FINGERPRINT := "samsung/nobleltetmo/nobleltetmo:7.0/NRD90M/N920TUVS5ERE1:user/release-keys"
