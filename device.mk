@@ -14,16 +14,16 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/samsung/nobleltetmo
+LOCAL_PATH := device/samsung/nobleltebmc
 
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Properties
-TARGET_SYSTEM_PROP += device/samsung/nobleltetmo/system.prop
+TARGET_SYSTEM_PROP += device/samsung/nobleltebmc/system.prop
 
 # Inherit from noblelte-common
 $(call inherit-product, device/samsung/noblelte-common/noblelte-common.mk)
 
 # Also get non-open-source specific aspects if available
-$(call inherit-product-if-exists, vendor/samsung/nobleltetmo/nobleltetmo-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/nobleltebmc/nobleltebmc-vendor.mk)
