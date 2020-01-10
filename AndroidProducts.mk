@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_nobleltetmo.mk
+    $(LOCAL_DIR)/lineage_nobleltebmc.mk
