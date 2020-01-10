@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=nobleltetmo
+export DEVICE=nobleltebmc
 export DEVICE_COMMON=noblelte-common
 export VENDOR=samsung
 
