@@ -1,5 +1,5 @@
 # Copyright (C) 2013-2016 The CyanogenMod Project
-# Copyright (C) 2017-2019 The LineageOS Project
+# Copyright (C) 2017-2019 The aosp Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,11 +29,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from nobleltebmc device
 $(call inherit-product, device/samsung/nobleltebmc/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common aosp stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := lineage_nobleltebmc
+PRODUCT_NAME := aosp_nobleltebmc
 PRODUCT_DEVICE := nobleltebmc
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := Samsung
