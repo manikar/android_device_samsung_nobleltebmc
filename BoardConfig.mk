@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The CyanogenMod Project
+# Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -36,7 +36,7 @@ BOARD_BLUETOOTH_OID_BUILDCFG_INCLUDE_DIR := device/samsung/nobleltebmc/bluetooth
 TARGET_SPECIFIC_HEADER_PATH += device/samsung/nobleltebmc/include
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_nobleltebmc_defconfig
+TARGET_KERNEL_CONFIG := aosp_nobleltebmc_defconfig
 
 # Radio
 BOARD_MODEM_TYPE := ss333
