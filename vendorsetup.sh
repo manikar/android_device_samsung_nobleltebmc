@@ -1,1 +1,3 @@
+add_lunch_combo aosp_nobleltebmc-eng
+add_lunch_combo aosp_nobleltebmc-user
 add_lunch_combo aosp_nobleltebmc-userdebug
