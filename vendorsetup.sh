@@ -1,1 +1,1 @@
-add_lunch_combo lineage_nobleltebmc-userdebug
+add_lunch_combo aosp_nobleltebmc-userdebug
